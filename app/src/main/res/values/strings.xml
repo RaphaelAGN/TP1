@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TP1LDDM</string>
+    <string name="textContato">Contato</string>
+    <string name="contactName">Nome contato</string>
+    <string name="contactNumber">Número de Telefone</string>
+    <string name="contactAdress">Endereço do contato</string>
+    <string name="contactEmail">Email</string>
+    <string name="saveButton">Salvar</string>
+    <string name="sendEmailButton">Enviar Email</string>
+    <string name="messageWhatsapp">Whatsapp</string>
+    <string name="facebookButton">Facebook</string>
+    <string name="instagramButton">Instagram</string>
+    <string name="linkedinButton">Linkedin</string>
+    <string name="facebook_app_id">413524029450201</string>
+    <string name="fb_login_protocol_scheme">fb413524029450201</string>
+    <string name="server_client_id_google">613469665259-sg5h7s13m47rgblqk7ls57lp7qb46tvh.apps.googleusercontent.com</string>
+    <string name="logOutText">Não foi possível encerrar a sessão</string>
+    <string name="revokeText">Não foi possível revogar a sessão</string>
+    <string name="revokeButton">revoke</string>
+    <string name="logoutButton">logOut</string>
+</resources>

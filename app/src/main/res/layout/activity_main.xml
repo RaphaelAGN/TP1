@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_layout"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/textContato"
+            android:textColor="@color/colorBlack"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <EditText
+            style="@style/AppTheme"
+            android:id="@+id/contactName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/contactName" />
+
+        <EditText
+            style="@style/AppTheme"
+            android:id="@+id/contactNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/contactNumber" />
+
+        <EditText
+            style="@style/AppTheme"
+            android:id="@+id/contactAdress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/contactAdress" />
+
+        <EditText
+            style="@style/AppTheme"
+            android:id="@+id/contactEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/contactEmail" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="createContact"
+                android:text="@string/saveButton"
+                android:textSize="11sp"
+                android:background="@drawable/border_button"/>
+
+            <Button
+                android:id="@+id/emailButton"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="sendEmailContact"
+                android:text="@string/sendEmailButton"
+                android:textSize="11sp"
+                android:background="@drawable/border_button"/>
+
+            <Button
+                android:id="@+id/whatsappButton"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="sendMessageWhatsapp"
+                android:text="@string/messageWhatsapp"
+                android:textSize="11sp"
+                android:background="@drawable/border_button" />
+        </LinearLayout>
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/googleLogin"
+            android:layout_width="match_parent"
+            android:layout_height="35sp"
+            android:onClick="onClick"/>
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/faceLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="loginFacebook"
+            android:layout_marginLeft="3sp"
+            android:layout_marginRight="3sp"/>
+
+        <Button
+            android:id="@+id/linkedinButton"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:layout_marginLeft="2sp"
+            android:layout_marginTop="2sp"
+            android:layout_marginRight="2sp"
+            android:background="@drawable/loginlinkedin"
+            android:onClick="loginLinkedin" />
+
+    </LinearLayout>
+
+</ScrollView>

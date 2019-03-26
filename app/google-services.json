@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "230130204026",
+    "firebase_url": "https://tp1lddm.firebaseio.com",
+    "project_id": "tp1lddm",
+    "storage_bucket": "tp1lddm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230130204026:android:e0b4831bf82fce3c",
+        "android_client_info": {
+          "package_name": "pucminas.computacao.lddm.tp1lddm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230130204026-818a9v21tjjcngkvtcpqtumopd9lom0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pucminas.computacao.lddm.tp1lddm",
+            "certificate_hash": "378f3dfcbe207a687513592535b00693024b15d0"
+          }
+        },
+        {
+          "client_id": "230130204026-g2a58dalrffnrlanllgasucjs4p5lock.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRjmr4EwyVfLvVeCI_EIMsr-efnO2AHNI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230130204026-g2a58dalrffnrlanllgasucjs4p5lock.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
